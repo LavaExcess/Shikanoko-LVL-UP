@@ -23,11 +23,5 @@ The author of the original extension
     </div>
   
 <img width="300px" src="https://github.com/LavaExcess/Shikanoko-LVL-UP/raw/58f641d9a2d6089643d0ddab55ef115014d3a229/assets/uwu30.gif">
-
   </div>
-
-  <div align="center">
-    <img width="300px" src="https://github.com/LavaExcess/Shikanoko-LVL-UP/raw/58f641d9a2d6089643d0ddab55ef115014d3a229/assets/uwu12.gif">
-  </div>
-
 </div>
