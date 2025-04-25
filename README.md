@@ -11,7 +11,7 @@ Shikanoko LVL UP is an extension of an extension for VS Code that adds dancing T
 The author of the original extension  
 [**KeoFoxy**](https://github.com/KeoFoxy)
 
-<div align="center">
+
 
 <div align="center" style="display: flex; justify-content: space-evenly; align-items: center;">
 
@@ -26,4 +26,4 @@ The code was honestly ripped off and adapted for my own needs, as Shika nokoNoko
   </div>
 
 
-</div>
+
