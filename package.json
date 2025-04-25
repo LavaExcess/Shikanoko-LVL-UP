@@ -1,0 +1,94 @@
+{
+	"name": "shikanoko-lvlup",
+	"displayName": "Shikanoko LVL UP",
+	"description": "Shikanoko LVL UP",
+	"version": "2.0.0",
+	"publisher": "LavaExcess",
+	"homepage": "https://github.com/LavaExcess/Shikanoko-LVL-UP.git",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/LavaExcess/Shikanoko-LVL-UP.git"
+	},
+	"engines": {
+		"vscode": "^1.62.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"shikanoko-nokonoko-koshitantan",
+		"visualization",
+		"anime",
+		"animegirl",
+		"Shikanoko",
+		"nokonoko",
+		"koshitantan",
+		"gif",
+		"meme",
+		"My Deer Friend Nokotan",
+		"しかのこのこのここしたんたん",
+		"Genshin Impact",
+		"genshin",
+		"blue archive",
+		"bluearchive",
+		"nekopara",
+		"neko",
+		"chokola",
+		"waifu",
+		"waifus",
+		"hatsune miku",
+		"miku",
+		"evangelion"
+	],
+	"icon": "assets/icon.jpg",
+	"activationEvents": [
+		"onView:shikanokoNokonokoView2"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "shikanokoNokonoko",
+					"title": "Shikanoko",
+					"icon": "assets/logo.svg"
+				}
+			]
+		},
+		"views": {
+			"shikanokoNokonoko": [
+				{
+					"type": "webview",
+					"id": "shikanokoNokonokoView",
+					"name": "LVL2"
+				}
+			]
+		},
+		"commands": [
+			{
+				"command": "shikanoko-nokonoko-koshitantan.showGifView",
+				"title": "Shikanoko Nokonoko Koshitantan"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"lint": "eslint src --ext ts",
+		"test": "vscode-test"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.62.0",
+		"@types/mocha": "^10.0.7",
+		"@types/node": "20.x",
+		"@typescript-eslint/eslint-plugin": "^7.14.1",
+		"@typescript-eslint/parser": "^7.11.0",
+		"eslint": "^8.57.0",
+		"typescript": "^5.4.5",
+		"@vscode/test-cli": "^0.0.9",
+		"@vscode/test-electron": "^2.4.0"
+	}
+}
