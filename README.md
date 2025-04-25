@@ -15,8 +15,9 @@ The author of the original extension
 <div align="center" style="display: flex; justify-content: space-evenly; align-items: center;">
 <div style="max-width: 400px; margin: 0 10px;">
 <p>
-The code was honestly ripped off and adapted for my own needs, as Shika nokoNoko dancing for hours became annoying. I added a couple of GIFs that change randomly every 5 minutes for myself. The original author had an MIT license, so I didn’t rip it off, I just adapted it.
+The code was honestly ripped off and adapted for my own needs, as Shika nokoNoko dancing for hours became annoying. I added a couple of GIFs that change randomly every 5 minutes for myself. The original author had a license MIT, so I just adapted his code to my needs and am sharing it with the community so as not to lose it)
  </p>
+<H1>НЕ СПИЗДИЛ А АДАПТИРОВАЛ</H1>
  </div>
  
 
