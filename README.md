@@ -17,7 +17,7 @@ The author of the original extension
 
 <img width="300px" src="https://github.com/KeoFoxy/shikanoko-nokonoko-koshitantan/raw/HEAD/assets/shikanoko.gif">
 
-<div style="max-width: 400px; text-align: center; margin: 0 10px;">
+<div style="max-width: 400px; margin: 0 10px;">
 <p>
 The code was honestly ripped off and adapted for my own needs, as Shika nokoNoko dancing for hours became annoying. I added a couple of GIFs that change randomly every 5 minutes for myself. The original author had an MIT license, so I didn’t rip it off, I just adapted it.
  </p>
